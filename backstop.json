@@ -106,7 +106,9 @@
       "label": "Nextcloud Enterprise Buy",
       "url": "https://nextcloud.com/enterprise/buy/",
       "hideSelectors": [],
-      "removeSelectors": [],
+      "removeSelectors": [
+        ".g-recaptcha"
+      ],
       "selectors": [
         "body"
       ],
